@@ -1,0 +1,50 @@
+body {
+  background-color: gray;
+}
+
+.container {
+  height: 100px;
+  width: 700px;
+  background: gray;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -350px;
+  text-align: center;
+}
+
+.container a {
+  color: black;
+  text-decoration: none;
+}
+
+.container h1 {
+  margin: 0;
+  border-bottom: 1px dotted black;
+}
+
+.container a:hover {
+  color: white;
+}
+
+.container p {
+  margin: 1px;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    font-size: 9px;
+  }
+}
